@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Eco-Cuchas main site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the main online site for the nonprofit organization from Córdoba called Eco-Cuchas.
 
-## Available Scripts
+Their main goal is to provide temporary and environmentally friendly shelter to stray dogs in Córdoba and its outskirts while they manage their adoption.
+
+# DISCLAIMER
+
+This site was made by request, the design was provided by the organization and I was tasked to make it happen as a programmer, there is no other language rather than Spanish because they are a local organization. 
+
+Nevertheless it works like a regular website, you may be able to translate its contents with the usual extension of your browser but for more information regarding the organization and its goals you may go to the section "Contacto" where the organization's main networks are avaiable.
+
+## This was made using REACT JS.
+
+The following scripts are the standarized version that comes along all React Apps.
 
 In the project directory, you can run:
 
