@@ -14,26 +14,23 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-       <Banner/>
-       <NavBar/>
-       <Routes>
-         <Route path="/">
-           <Home/>
-         </Route>
-         <Route path="/reciclaje">
-           <Reciclaje/>
-         </Route>
-         <Route path="/propietarios">
-           <Inquilinos/>
-         </Route>
-         <Route path="/ayudar">
-            <Ayudar/>
-         </Route>
-         <Route>
-           <Contacto/>
-         </Route>
-       </Routes>
-       <Footer/>
+        <Banner />
+        <NavBar />
+        <Routes>
+         
+          <Route path="/" element={<Home/>}/>
+            
+          
+          <Route path="/reciclaje" element={<Reciclaje />}/>
+            
+          
+          <Route path="/propietarios" element={<Inquilinos />}/>
+          <Route path="/ayudar" element={<Ayudar />}/>
+            
+          <Route path="/contacto" element={<Contacto />}/>
+
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

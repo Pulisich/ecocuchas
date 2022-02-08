@@ -4,8 +4,9 @@ function Banner(){
     return(
 
         <div className="banner">
-            <img src="" alt="logo" />
-            <h1>ECO CUCHAS</h1>
+            <span><img src="" alt="logo" /></span>
+            
+            <span><h1>ECO CUCHAS</h1></span>
         </div>
 
     )
